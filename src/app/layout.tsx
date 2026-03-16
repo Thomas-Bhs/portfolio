@@ -5,6 +5,7 @@ import { Space_Mono } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import { ThemeProvider } from '@/context/ThemeContext';
+import ThemeWrapper from '@/components/layout/ThemeWrapper';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -36,8 +37,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${playfair.variable} ${dmSans.variable} ${spaceMono.variable} antialiased`}>
         <ThemeProvider>
-          <Header />
-          {children}
+          <ThemeWrapper>
+            <Header />
+            {children}
+          </ThemeWrapper>
         </ThemeProvider>
       </body>
     </html>
