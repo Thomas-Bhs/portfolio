@@ -6,6 +6,6 @@ export default function ThemeWrapper({ children }: { children: React.ReactNode }
   const { theme } = useTheme();
 
   return (
-    <div className={`min-h-screen ${theme === 'light' ? 'bg-light' : 'bg-dark'}`}>{children}</div>
+    <div className={`min-h-screen ${theme === 'light' ? 'bg-light text-dark' : 'bg-dark text-light'}`}>{children}</div>
   );
 }
