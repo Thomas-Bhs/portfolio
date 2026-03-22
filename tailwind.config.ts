@@ -15,9 +15,10 @@ const config: Config = {
       },
 
       colors: {
-        light: '#FAFAF8',
-        dark: '#111111',
-        accent: '#C41E3A',
+        light: '#F2F0EC',
+        dark: '#1A1A1A',
+        accent: '#C0392A',
+        cream: '#EDE8DF',
       },
       keyframes: {
         fadeUp: {

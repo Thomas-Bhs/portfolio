@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Hero() {
   const fullText = 'Turning ideas into products.';
@@ -33,7 +34,7 @@ export default function Hero() {
   }, [isH1Done]);
 
   return (
-    <section className='min-h-screen flex flex-col items-center justify-center text-center px-6 md:px-12 '>
+    <section className='relative min-h-screen flex flex-col items-center justify-center text-center px-6 md:px-12 '>
       <span className='font-mono text-xs md:text-sm tracking-widest uppercase text-accent mb-4'>
         Fullstack Developer
       </span>
