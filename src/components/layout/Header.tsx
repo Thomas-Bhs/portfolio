@@ -14,7 +14,9 @@ export default function Header() {
     >
       <nav className='grid grid-cols-3 items-center'>
         <div className='flex justify-start'>
-          <Image src='/hanko_T_kiku.svg' alt='Hanko Thomas' width={40} height={40} />
+          <a href='#'>
+            <Image src='/hanko_T_kiku.svg' alt='Hanko Thomas' width={40} height={40} />
+          </a>
         </div>
 
         {/* Nav links */}
