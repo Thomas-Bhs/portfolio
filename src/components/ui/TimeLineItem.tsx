@@ -35,7 +35,7 @@ export default function TimelineItem({ entry, index, isDark, inView }: Props) {
       </div>
 
       <div className='flex-1 pb-10'>
-        <span className='inline-block font-mono text-[8px] tracking-[.16em] uppercase border px-2 py-0.5 mb-3 text-accent'>
+        <span className='inline-block font-mono text-[8px] tracking-[.16em] uppercase px-2 py-0.5 mb-3 text-accent'>
           {entry.tag}
         </span>
         <h3

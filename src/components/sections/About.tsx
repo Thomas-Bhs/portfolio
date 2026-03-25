@@ -62,7 +62,7 @@ export default function About() {
               isDark ? 'text-light/50' : 'text-dark/50'
             }`}
           >
-            Master's in engineering, years in supply chain and ERP consulting <br />
+            Master&apos;s in engineering, years in supply chain and ERP consulting <br />
             now building the tools I used to spec out for others.
           </p>
         </div>
@@ -150,7 +150,7 @@ export default function About() {
               }`}
             >
               Fullstack developer with an engineering and ERP consulting background — I understand
-              both the technical stack and the business problems it's meant to solve.
+              both the technical stack and the business problems it&apos;s meant to solve.
             </p>
             <div className='flex flex-wrap gap-1.5 mb-4'>
               {nowStack.map((s: string, i: number) => (

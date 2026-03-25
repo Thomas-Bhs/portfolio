@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 export default function Hero() {
   const fullText = 'Turning ideas into products.';
@@ -11,7 +10,7 @@ export default function Hero() {
   const [isP1Done, setIsP1Done] = useState(false);
 
   useEffect(() => {
-    const totalDelay = (fullText.split(' ').length - 1) * 150 + 600; // Total time for H1 animation
+    const totalDelay = (fullText.split(' ').length - 1) * 150 + 300; // Total time for H1 animation
     const timer = setTimeout(() => {
       setIsH1Done(true);
     }, totalDelay);

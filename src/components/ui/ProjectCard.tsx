@@ -1,4 +1,5 @@
 'use client';
+import { Project } from '@/types/project';
 import Image from 'next/image';
 
 export default function ProjectCard({
@@ -7,7 +8,7 @@ export default function ProjectCard({
   isActive,
   onHover,
 }: {
-  project: any;
+  project: Project;
   index: number;
   isActive: boolean;
   onHover: () => void;

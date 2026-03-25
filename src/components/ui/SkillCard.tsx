@@ -1,8 +1,9 @@
 'use client';
 
 import Image from 'next/image';
+import { Skill } from '@/types/skill';
 
-export default function SkillCard({ skill, theme }: { skill: any; theme: string }) {
+export default function SkillCard({ skill, theme }: { skill: Skill; theme: string }) {
   return (
     <div
       className='relative flex flex-row items-center justify-between px-5 py-4 w-52 h-20 rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer'

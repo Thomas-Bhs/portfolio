@@ -1,8 +1,9 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import { Project } from '@/types/project';
 
-export default function ProjectList({ projects }: { projects: any[] }) {
+export default function ProjectList({ projects }: { projects: Project[] }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
@@ -16,7 +17,7 @@ export default function ProjectList({ projects }: { projects: any[] }) {
             key={project.title}
             role='button'
             tabIndex={0}
-            aria-expended={isOpen}
+            aria-expanded={isOpen}
             aria-label={`Project card ${project.title} - click to view details`}
             className='border-b border-white/[0.06]'
             onClick={() => setActiveIndex(isOpen ? null : i)}
