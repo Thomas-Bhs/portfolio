@@ -10,7 +10,7 @@ export default function Skills() {
   const { ref, inView } = useInView();
 
   return (
-    <section ref={ref} className='py-24 px-6 md:px-12'>
+    <section ref={ref} id='skills' className='py-24 px-6 md:px-12'>
       <div className='border-4 border-accent bg-accent rounded-3xl p-12 text-white'>
         <div className='text-center mb-16'>
           <h2 className='font-playfair text-4xl md:text-5xl font-bold mb-4'>My Stack</h2>
