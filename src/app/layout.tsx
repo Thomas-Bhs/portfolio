@@ -24,8 +24,29 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio Website',
-  description: 'My portfolio website built with Next.js and Tailwind CSS',
+  metadataBase: new URL('https://portfolio-thomas-bourchis.vercel.app'),
+
+  title: 'Thomas Bourchis — Fullstack Developer',
+  description:
+    'Fullstack developer specialized in React, Next.js and React Native. Available for freelance and full-time positions.',
+  keywords: ['fullstack developer', 'React', 'Next.js', 'React Native', 'TypeScript', 'Node.js'],
+  authors: [{ name: 'Thomas Bourchis' }],
+  openGraph: {
+    title: 'Thomas Bourchis — Fullstack Developer',
+    description:
+      'Fullstack developer specialized in React, Next.js and React Native. Available for freelance and full-time positions.',
+    url: 'https://portfolio-thomas-bourchis.vercel.app',
+    siteName: 'Thomas Bourchis Portfolio',
+    locale: 'en_US',
+    type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Thomas Bourchis — Fullstack Developer',
+    description: 'Fullstack developer specialized in React, Next.js and React Native.',
+    images: ['/og-image.png'],
+  },
 };
 
 export default function RootLayout({

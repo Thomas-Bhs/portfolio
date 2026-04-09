@@ -35,8 +35,8 @@ export const projects = [
   {
     title: 'Coming Soon',
     description: '',
-    image: '/Coming_Soon.png',
-    logo: '/Coming_Soon.png',
+    image: '/Coming_soon.png',
+    logo: '/Coming_soon.png',
     tags: [],
     github: '',
     live: '',
