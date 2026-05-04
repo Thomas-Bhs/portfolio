@@ -36,7 +36,7 @@ export const projects = [
     title: 'DevAgent OS',
     description:
       'AI-powered multi-agent development assistant — 5 specialized agents (Dev, Debug, QA, UI/UX, Designer) coordinated by a central orchestrator. Built with Next.js, Claude API, and MongoDB.',
-    image: '/projects/devagent-os.png',
+    image: '/logo_devagent-os.png',
     logo: '/logo_devagent-os.png',
     tags: ['Next.js', 'TypeScript', 'Claude API', 'MongoDB', 'Vercel AI SDK', 'NextAuth', 'Sentry'],
     github: 'https://github.com/Thomas-Bhs/agent-dev',
