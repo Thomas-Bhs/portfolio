@@ -30,6 +30,17 @@ export const projects = [
     tags: ['React', 'Next.js', 'Tailwind CSS', 'OpenAI API'],
     github: 'https://github.com/Thomas-Bhs/MarketScope',
     live: 'https://market-scope-ai.vercel.app',
+    new: false,
+  },
+  {
+    title: 'DevAgent OS',
+    description:
+      'AI-powered multi-agent development assistant — 5 specialized agents (Dev, Debug, QA, UI/UX, Designer) coordinated by a central orchestrator. Built with Next.js, Claude API, and MongoDB.',
+    image: '/projects/devagent-os.png',
+    logo: '/logo_devagent-os.png',
+    tags: ['Next.js', 'TypeScript', 'Claude API', 'MongoDB', 'Vercel AI SDK', 'NextAuth', 'Sentry'],
+    github: 'https://github.com/Thomas-Bhs/agent-dev',
+    live: 'https://devagent-os.vercel.app',
     new: true,
   },
   {
