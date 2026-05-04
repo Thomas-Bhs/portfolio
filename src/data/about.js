@@ -1,7 +1,7 @@
 export const stats = [
   { num: 5, suffix: '+', label: 'Years in industry' },
   { num: 2, suffix: '+', label: 'Years managing projects' },
-  { num: 3, suffix: '', label: 'Apps shipped' },
+  { num: 4, suffix: '', label: 'Apps shipped' },
   { num: null, symbol: '∞', label: 'Curiosity' },
 ];
 

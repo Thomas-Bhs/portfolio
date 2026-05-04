@@ -40,4 +40,14 @@ export const skills = [
     color: '#E87EA1',
     logo: { light: '/logos/openai.svg', dark: '/logos/openai_dark.svg' },
   },
+  {
+    name: 'TypeScript',
+    color: '#1E3A5F',
+    logo: { light: '/logos/typescript.svg', dark: '/logos/typescript.svg' },
+  },
+  {
+    name: 'Vercel AI SDK',
+    color: '#000000',
+    logo: { light: '/logos/vercel-dark.svg', dark: '/logos/vercel-dark.svg' },
+  },
 ];
