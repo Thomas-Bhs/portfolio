@@ -35,11 +35,11 @@ export const projects = [
   {
     title: 'DevAgent OS',
     description:
-      'AI-powered multi-agent development assistant — 5 specialized agents (Dev, Debug, QA, UI/UX, Designer) coordinated by a central orchestrator. Built with Next.js, Claude API, and MongoDB.',
+      'Production-ready SaaS with 5 specialized AI agents (Dev, Debug, QA, UI/UX, Designer) orchestrated by a central coordinator. Features full Stripe billing (4 plans), free trial, monthly quotas, transactional emails, and LLM-as-judge automated evaluation. Lighthouse 100/100/100/100.',
     image: '/logo_devagent-os.png',
     logo: '/logo_devagent-os.png',
-    tags: ['Next.js', 'TypeScript', 'Claude API', 'MongoDB', 'Vercel AI SDK', 'NextAuth', 'Sentry'],
-    github: 'https://github.com/Thomas-Bhs/agent-dev',
+    tags: ['Next.js', 'TypeScript', 'Claude API', 'MongoDB', 'Vercel AI SDK', 'Stripe', 'NextAuth', 'Sentry'],
+    github: 'https://github.com/Thomas-Bhs/devagent-os',
     live: 'https://devagent-os.vercel.app',
     new: true,
   },

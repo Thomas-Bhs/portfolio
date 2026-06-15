@@ -50,4 +50,9 @@ export const skills = [
     color: '#000000',
     logo: { light: '/logos/vercel-dark.svg', dark: '/logos/vercel-dark.svg' },
   },
+  {
+    name: 'Stripe',
+    color: '#2C6E6E',
+    logo: { light: '/logos/stripe.svg', dark: '/logos/stripe.svg' },
+  },
 ];
